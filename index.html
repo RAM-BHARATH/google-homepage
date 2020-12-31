@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar" >
+            <ul class="navlist" id="header-navlist">
+                <li class="navitem"><a class="navlink" href="https://gmail.com">Gmail</a></li>
+                <li class="navitem"><a class="navlink" href="https://www.google.co.in/imghp">Images</a></li>
+                <li class="navitem"><a class="navlink" href="https://about.google/intl/en/products/?tab=wh"><span class="material-icons">apps</span></a></li>
+                <li class="navitem"><a class="navlink" href="https://accounts.google.com/signin/v2/identifier"><button>Sign in</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class="main-content">
+            <img src="images/google-logo.png" alt="Google's logo" id="logo" class="logo">
+            <div class="input-box">
+                <form method="POST">
+                    <div class="material-icons search-icon">search</div><input type="text" name="search-box" id="search-box">
+                </form>
+            </div>
+            <div class="buttons">
+                <button class="button">Google Search</button>
+                <button class="button">I'm feeling lucky!</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>India</p>
+        </div>
+        <div class="footer-nav">
+            <nav class="navbar">
+                <ul class="navlist" id="navlist1">
+                    <li class="navitem"><a class="navlink" href="https://ads.google.com/">Advertising</a></li>
+                    <li class="navitem"><a class="navlink" href="https://www.google.com/intl/en_in/business/">Business</a></li>
+                    <li class="navitem"><a class="navlink" href="https://about.google/">About</a></li>
+                    <li class="navitem"><a class="navlink" href="https://www.google.com/search/howsearchworks/">How search works</a></li>
+                </ul>
+            </nav>
+            <nav class="navbar">
+                <ul class="navlist" id="navlist2">
+                    <li class="navitem"><a class="navlink" href="https://policies.google.com/privacy">Privacy</a></li>
+                    <li class="navitem"><a class="navlink" href="https://policies.google.com/terms">Terms</a></li>
+                    <li class="navitem"><a class="navlink" href="https://www.google.com/preferences">Settings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
